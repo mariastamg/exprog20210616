@@ -54,7 +54,6 @@ public class Ejercicio5 extends JFrame implements ActionListener{
 		setVisible(true);
 		setBounds(100,100, 800, 500);
 		JPanel panel = (JPanel) getContentPane();
-		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		panel.setLayout(new BorderLayout());
 		panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 30, 30));
 		
